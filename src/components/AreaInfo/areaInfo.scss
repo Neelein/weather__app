@@ -1,0 +1,58 @@
+.areaInfo{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 50px;
+    background: rgba(0,0,0,0.1);
+
+    &__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .dayInfo{
+            position: relative;
+            height: 100%;
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+
+            .areaName{
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+
+            .temperature{
+                span{
+                    font-size: 10em;
+                    font-weight: 600;
+                    margin-right: 10px;
+                }
+
+                .weather-type{
+                    font-size: 30px;
+                }
+            }
+
+            .desc{
+                p{
+                    font-size: 25px;
+                }
+            }
+            .time{
+                position: absolute;
+                bottom: 10%;
+                font-size: 16px;
+            }
+        }
+
+        .weekInfo{
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex: 2;
+            background: rgba(255,255,255,0.5);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.home{
+  .title{
+    font-size: 40px;
+    text-align: center;
+    color:rgba(0,0,0,0.6);
+  }
+
+  &__container{
+    width: 1300px;
+    height: 560px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(1em);
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+}
